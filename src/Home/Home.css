@@ -1,0 +1,43 @@
+.home {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: auto;
+  }
+  
+  .home h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .schedule-list {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .schedule-list h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .schedule-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .schedule-item strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
