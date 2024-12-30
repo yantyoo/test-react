@@ -1,0 +1,37 @@
+/* BottomBar CSS */
+.bottom-bar {
+    display: flex; /* 내부 아이콘들을 가로로 정렬 */
+    position: fixed; /* 화면 하단에 고정 */
+    bottom: 0; /* 하단 위치 고정 */
+    height: 50px; /* 고정된 높이 */
+    width: 100%; /* 부모 컨테이너의 폭에 맞춤 */
+    max-width: 600px; /* App.css의 .container와 동일한 최대 너비 */
+    background-color: #ffffff; /* 배경색 */
+    border-top: 1px solid #ddd; /* 상단 경계선 */
+    justify-content: space-around; /* 아이콘 간 균등한 간격 */
+    align-items: center; /* 세로축 중앙 정렬 */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 상단 그림자 효과 */
+    z-index: 1000; /* 다른 요소 위에 위치 */
+    left: 50%; /* 화면의 가운데 정렬 */
+    transform: translateX(-50%); /* 가운데 정렬 보정 */
+  }
+  
+  .icon {
+    display: flex; /* 아이콘 내부 요소를 정렬 */
+    flex-direction: column; /* 세로 방향 정렬 */
+    align-items: center; /* 가로축 중앙 정렬 */
+    justify-content: center; /* 세로축 중앙 정렬 */
+    font-size: 14px; /* 텍스트 크기 */
+    color: #555; /* 텍스트 색상 */
+    cursor: pointer; /* 클릭 가능 마우스 커서 */
+  }
+  
+  .icon span {
+    font-size: 20px; /* 아이콘 크기 */
+    margin-bottom: 4px; /* 텍스트와 아이콘 사이 간격 */
+  }
+  
+  .icon:hover {
+    color: #007bff; /* 아이콘 hover 시 색상 */
+  }
+  
