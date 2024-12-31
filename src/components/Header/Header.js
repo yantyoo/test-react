@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import { ReactComponent as Logoicon} from "../assets/Logo.svg";
-import { ReactComponent as Bell} from "../assets/Bell.svg";
+import { ReactComponent as Logoicon} from "../../assets/Logo.svg";
+import { ReactComponent as Bell} from "../../assets/Bell.svg";
 
 function Header() {
     return (
