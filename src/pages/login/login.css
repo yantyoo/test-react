@@ -23,6 +23,10 @@
     padding: 76px 0 60px;
     text-align: center;
   }
+
+  .login_logo {
+    width: 300px;
+  }
   
   /* 입력 필드 스타일 */
   .input {

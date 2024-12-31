@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // useNavigate import
 import "./login.css";
+import { ReactComponent as Logoicon} from "../../assets/Logo.svg";
 
 const LoginPage = () => {
   const navigate = useNavigate(); // useNavigate 초기화
@@ -14,7 +15,7 @@ const LoginPage = () => {
     <div id="wrap">
       <div id="login_area">
         <div id="login_header">
-          <div>LOGO</div>
+          <Logoicon height={50} className="login_logo"/>
         </div>
         <div id="login_box">
           <form onSubmit={handleLogin}> {/* form에 handleLogin 추가 */}
@@ -37,6 +38,8 @@ const LoginPage = () => {
               <input type="checkbox" name="autologin" id="autologin" /> 자동 로그인
             </label>
           </form>
+          <button>카카오 로그인</button>
+          <button>애플 로그인</button>
           <ul id="sub_menu">
             <li>
               <a href="#">회원 가입</a>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./BottomBar.css";
-import { ReactComponent as MyPageIcon } from "../assets/Mypageicon.svg";
-import { ReactComponent as Calendaricon } from "../assets/Calendaricon.svg";
+import { ReactComponent as MyPageIcon } from "../../assets/Mypageicon.svg";
+import { ReactComponent as Calendaricon } from "../../assets/Calendaricon.svg";
 
 function BottomBar() {
   return (
