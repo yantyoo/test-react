@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Calendar from "../components/Calendar/Calendar";
-import Popup from "../components/Popup/Popup";
-import "./Home.css";
+import Calendar from "../../components/Calendar/Calendar";
+import Popup from "../../components/Popup/Popup";
+import "./home.css";
 
 const Home = () => {
   const [selectedDate, setSelectedDate] = useState(null);
@@ -26,7 +26,6 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1>캘린더 test</h1>
       <Calendar onDateSelect={handleDateSelect} />
       {isPopupOpen && (
         <Popup
